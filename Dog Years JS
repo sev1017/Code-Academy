@@ -1,0 +1,31 @@
+// creating a non changing variable that has data of how old I am 
+const myAge = 21;
+
+// creating a changing variable that has the value 2
+let earlyYears = 2;
+earlyYears *= 10.5;
+
+// creating a new variable and using the constant already declared and subtracting 2 from it
+let laterYears  = myAge - 2;
+
+// difference of laterYears multiplied by 4 to calculate the number of dog years
+laterYears *= 4;
+
+// check work
+console.log(earlyYears);
+console.log(laterYears);
+
+// adding the two Years variables I declared to calculate my age in dog years
+let myAgeInDogYears = earlyYears + laterYears; 
+
+// writing my name as a String with a built in method 
+myName = 'Sina Pfupajena'.toLowerCase();
+
+//using 
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+_____________________________________________________________________________________
+Output 
+
+21
+76
+My name is sina pfupajena. I am 21 years old in human years which is 97 years old in dog years.
