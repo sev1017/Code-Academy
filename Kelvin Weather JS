@@ -1,0 +1,26 @@
+//Current temperature in kelvins, assigned 293 to kelvin as a constant
+const kelvin = 0;
+
+//Converting kelvin to celsius
+const celsius = kelvin - 273;
+
+//Convert celsius to fahrenheit
+let fahrenheit = celsius * (9 / 5) + 32;
+
+//round down fahrenheit variable 
+Fahrenheit = Math.floor(fahrenheit); 
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+Celsius = Math.floor(celsius);
+console.log(`The temperature is ${celsius} degrees Celsius.`)
+
+// Extra practice - Convert Celsius to the Newton scale 
+let newton = celsius * (33 / 100);
+Newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`)
+_____________________________________________________________
+Output 
+
+The temperature is -459.40000000000003 degrees Fahrenheit.
+The temperature is -273 degrees Celsius.
+The temperature is -90.09 degrees Newton.
